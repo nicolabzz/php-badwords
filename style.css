@@ -1,3 +1,8 @@
+/* ============================================================================
+ALL THE BAD BEHAVIOR ARE INTENTIONAL TO CREATE SPOOKY N ANNOYING PAGE 
+=============================================================================*/
+
+
 * {
   padding: 0 10rem;
   margin: 0;
@@ -158,4 +163,10 @@ label:hover {
   font-size: 20px;
   color: crimson;
   letter-spacing: 2px;
+  transition: .8s ease-in-out;
+}
+
+#forb:hover {
+font-size: 1px;
+transform: rotate(180deg);
 }
