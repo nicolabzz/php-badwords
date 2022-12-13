@@ -1,0 +1,161 @@
+* {
+  padding: 0 10rem;
+  margin: 0;
+  box-sizing: border-box;
+  /*
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: 'Oregano', cursive;
+  */
+}
+
+body {
+  background-color: black;
+}
+
+/* BIG TITLE */
+h1 {
+  color: bisque;
+  font-family: 'Oregano', cursive;
+  text-align: center;
+  transition: .5s ease-in-out;
+}
+
+
+h1:hover {
+  color: black;
+}
+
+
+/* SMALL TITLES */
+h2 {
+  color: orchid;
+  font-family: 'Oregano', cursive;
+  letter-spacing: 3px;
+  transition: .5s ease-in-out;
+}
+
+h2:hover {
+  color: firebrick;
+}
+
+/* MAIN TEXTS */
+h4 {
+  color: white;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  text-align: center;
+  font-size: 2rem;
+  transition: .9s ease-in-out;
+}
+
+h4:hover {
+  letter-spacing: 2px;
+  color: firebrick;
+  font-family: 'Fascinate Inline', cursive;
+}
+
+/* STRLEN */
+h5 {
+  color: moccasin;
+  font-family: 'Oregano', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: .5s ease-in-out;
+}
+
+h5:hover {
+  color: firebrick;
+}
+
+/* WORD CHOOSING TEXT */
+span {
+  color: rgb(119, 119, 119);
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 1.5rem;
+  margin: auto;
+  transition: .5s ease-in-out;
+}
+
+span:hover {
+  color: firebrick;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid white;
+  max-width: 100px;
+  margin: auto;
+  transition: .6s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+
+
+
+button:hover {
+  scale: 1.25;
+  transform: rotate(720deg);
+}
+
+p {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: .5rem;
+  background-color: black;
+  font-size: 2rem;
+  transition: .5s ease-in-out;
+}
+
+
+p:hover {
+  color: firebrick;
+}
+
+input {
+  background-color: black;
+  padding: .5rem 3rem;
+  font-family: 'Oregano', cursive;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  margin-right: .5rem;
+}
+
+form {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18rem;
+  flex-direction: column;
+  height: 250px;
+}
+
+label {
+  font-weight: bold;
+  color: indianred;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+label:hover {
+  color: firebrick;
+  transition: 1s ease-in-out;
+  letter-spacing: 3rem;
+
+}
+
+#word {
+  color: crimson;
+  font-size: 30px;
+  padding-left: 1rem;
+}
+
+#forb {
+  font-size: 20px;
+  color: crimson;
+  letter-spacing: 2px;
+}
